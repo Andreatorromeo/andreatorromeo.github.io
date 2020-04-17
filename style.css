@@ -331,13 +331,13 @@ header {
 }
 
 .projects .projects-grid .item-1 {
-    background-image: url(/Images/1.jpeg);
+    background-image: url(Images/1.jpeg);
     background-position: center;
     filter: grayscale(100%);
 }
 
 .projects .projects-grid .item-2 {
-    background-image: url(/Images/2.jpeg);
+    background-image: url(Images/2.jpeg);
     background-position: center;
     background-size: auto;
     filter: grayscale(100%);
@@ -346,7 +346,7 @@ header {
 .projects .projects-grid .item-3 {
     grid-column-start: 1;
     grid-column-end: 3;
-    background-image: url(/Images/3.jpeg);
+    background-image: url(Images/3.jpeg);
     background-size: auto;
     background-position: center;
     filter: grayscale(100%);
