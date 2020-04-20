@@ -207,6 +207,7 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 200px auto;
+    /* border: 1px solid tomato; */
 }
 
 .section-title {
@@ -244,6 +245,11 @@ header {
     color: #2A2A2A;
 }
 
+.about-me .icons .icon-set .icon-text{
+    margin-top: 30px;
+}
+
+
 .content-about {
     max-width: 100%;
     display: flex;
@@ -251,6 +257,7 @@ header {
     font-family: Sabon;
     font-size: 1.5rem;
     line-height: 1.8rem;
+    /* border: solid 1px blue; */
 }
 
 .about-me .content-about .text-about {
@@ -258,7 +265,7 @@ header {
     color: #9C9C9C;
 }
 
-.about-me .content-about .hello {
+.about-me .content-about .darker {
     font-size: 1.75rem;
     line-height: 2rem;
     color: #2A2A2A;
@@ -271,6 +278,8 @@ header {
 /* BACKGROUND INCLINED 'PROJECTS' */
 
 .projects {
+    max-width: 76.3rem;
+    margin:0 auto;
     border: solid 2px red;
 }
 
@@ -304,7 +313,7 @@ header {
 }
 
 .section-title-2 {
-    width: 22rem;
+    width: 23rem;
 }
 
 .section-header-2::after {
@@ -350,4 +359,34 @@ header {
     background-size: auto;
     background-position: center;
     filter: grayscale(100%);
+}
+
+
+/* CONTACTS */
+
+.contacts{
+    max-width: 76.3rem;
+    height: 60vh;
+    border:2px solid violet;
+    margin: 80px auto;
+    
+}
+
+.section-header-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-header-3::after {
+    margin: 110px auto;
+    content: '';
+    display: block;
+    width: 6.25rem;
+    height: 0.25rem;
+    background-color: #2A2A2A;
+}
+.section-header-3 .section-title-3{
+    width: 23rem;
 }
