@@ -146,7 +146,7 @@ header {
     color: white;
     letter-spacing: 10px;
     text-align: center;
-    margin-top: 22.8rem;
+    margin-top: 18rem;
 }
 
 .subtitle {
@@ -195,7 +195,7 @@ header {
 .hero {
     width: 100%;
     position: absolute;
-    top: -600px;
+    top: -800px;
 }
 
 
