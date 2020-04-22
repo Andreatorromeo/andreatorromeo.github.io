@@ -7,6 +7,10 @@
     font-family: Cerapro;
     src: url("Fonts/CeraPRO-Medium.ttf");
 }
+@font-face {
+    font-family: Ceraprolight;
+    src: url("Fonts/CeraPRO-Light.ttf");
+}
 
 @font-face {
     font-family: Roboto;
@@ -150,7 +154,7 @@ header {
 }
 
 .subtitle {
-    font-family: Cerapro;
+    font-family: Ceraprolight;
     font-weight: normal;
     font-size: 0.9rem;
     text-transform: uppercase;
