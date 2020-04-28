@@ -181,6 +181,8 @@ header {
   transform: skewY(-6deg);
   z-index: -1;
   background: #242424;
+  /* FOR PARALLEX DEPTH background-image: url(Images/fog1.png);
+  background-repeat: no-repeat; */
 }
 
 /* HERO SECTION */
