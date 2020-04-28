@@ -147,12 +147,12 @@ header {
   color: white;
   letter-spacing: 10px;
   text-align: center;
-  margin-top: 18rem;
+  margin-top: 13rem;
 }
 
 .subtitle {
   font-family: Ceraprolight;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 0.9rem;
   text-transform: uppercase;
   color: #9ffb00;
