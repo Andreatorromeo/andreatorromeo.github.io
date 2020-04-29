@@ -226,7 +226,7 @@ header {
 .about-me .icons {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 11.25rem;
 }
 
@@ -235,6 +235,7 @@ header {
 }
 
 .icon-set {
+  margin-right: 10px;
   display: flex;
   min-width: 130px;
   max-width: 130px;
@@ -251,8 +252,9 @@ header {
 
 .content-about {
   max-width: 100%;
+  margin-left: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-family: Sabon;
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -386,9 +388,12 @@ header {
 
 .contacts-icons-container {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  width: 20%;
+  justify-content: space-around;
 }
 .contacts .contacts-icons-container .contacts-icon {
   max-width: 60px;
-  margin: 0 50px;
+  height: 60px;
+  /* margin: 0 50px; */
 }
