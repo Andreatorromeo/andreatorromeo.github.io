@@ -199,25 +199,28 @@ header {
 /* BACKGROUND INCLINED 'PROJECTS' */
 
 .projects {
-  max-width: 77%;
-  margin: 0 auto;
+  position: relative;
 }
 
-.background_projects {
-  display: flex;
-  justify-content: center;
-}
-
-.background_projects:after {
-  margin-top: 100px;
+.projects:after {
   position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -100px;
+  right: 0;
+
   content: "";
-  width: 100%;
-  height: 120%;
+
   transform-origin: top left;
   transform: skewY(-6deg);
   z-index: -1;
+
   background: #242424;
+}
+
+.projects-inner {
+  max-width: 77%;
+  margin: 0 auto;
 }
 
 /* SECTION HEADER IN 'PROJECTS' */
