@@ -337,7 +337,7 @@ header {
   }
   .content-about {
     max-width: 100%;
-    margin-left: 20px;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
