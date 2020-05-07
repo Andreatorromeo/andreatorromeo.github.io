@@ -206,7 +206,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: -100px;
+  bottom: -190px;
   right: 0;
 
   content: "";
@@ -235,6 +235,7 @@ header {
 
 .section-title-2 {
   width: 23rem;
+  margin-top: 40px;
 }
 
 .section-header-2::after {
@@ -302,6 +303,10 @@ header {
   align-items: center;
 }
 
+.section-header-3 .section-title-3 {
+  margin-top: 40px;
+}
+
 .section-header-3::after {
   margin: 110px auto;
   content: "";
@@ -314,7 +319,14 @@ header {
   width: 23rem;
 }
 
-/* ICONS */
+/* ICONS and email*/
+.email {
+  margin: 0 0 100px;
+  display: flex;
+  justify-content: center;
+  font-family: Cerapro;
+  font-size: 2em;
+}
 
 .contacts-icons-container {
   display: flex;
@@ -379,6 +391,43 @@ header {
   body {
     overflow-x: hidden;
   }
+
+  /* HAMBURGER MENU */
+  .line {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: white;
+  }
+  nav {
+    position: relative;
+  }
+  .hamburger {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    z-index: 3;
+  }
+
+  .navbar .menu {
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+  }
+  .navbar .menu.open {
+    clip-path: circle(900px at 90% -10%);
+    -webkit-clip-path: circle(900px at 90% -10%);
+  }
+
   /* DARK GREY PART */
   .hero {
     width: 100%;
@@ -426,7 +475,6 @@ header {
     flex-direction: column;
     align-items: center;
     margin-bottom: 6.25rem;
-    border: 2px solid black;
   }
 
   .about-me .icons .icon-set .icon-text {
@@ -465,9 +513,22 @@ header {
     /* max-width: 100%; */
     margin: 0 auto;
   }
+  .projects:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -100px;
+    right: 0;
 
-  .background_projects:after {
-    /* margin-top: 100px; */
+    content: "";
+
+    transform-origin: top left;
+    transform: skewY(-6deg);
+    z-index: -1;
+
+    background: #242424;
+  }
+  /* .background_projects:after {
     position: absolute;
     content: "";
     width: 100%;
@@ -476,7 +537,7 @@ header {
     transform: skewY(-6deg);
     z-index: -1;
     background: #242424;
-  }
+  } */
 
   .section-header-2 {
     margin-top: 150px;
@@ -513,7 +574,7 @@ header {
     margin-top: 0;
   }
   .projects .projects-grid > a:nth-child(3) {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .contacts {
@@ -543,6 +604,13 @@ header {
   }
   /* ICONS */
 
+  .email {
+    margin: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Cerapro;
+    font-size: 1.2em;
+  }
   .contacts-icons-container {
     display: flex;
     flex-direction: column;
