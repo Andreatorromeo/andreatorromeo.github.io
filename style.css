@@ -385,6 +385,13 @@ header {
     margin-bottom: 20px;
   }
 }
+.email {
+  margin: 0 0 100px;
+  display: flex;
+  justify-content: center;
+  font-family: Cerapro;
+  font-size: 1.8em;
+}
 
 /* IPHONE8 */
 @media screen and (max-width: 375px) {
