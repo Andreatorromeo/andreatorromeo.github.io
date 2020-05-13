@@ -657,155 +657,101 @@
   /* border: 1px solid green; */
 }
 
-/* ABOUT THE COMPANY */
-.pject_wrapper_primary_section {
-  /* border: 1px solid blue; */
-  width: 85%;
-  display: flex;
-  flex-direction: column;
+/* PROJECT INTRODUCTION GRID */
+/* GRID WRAPPER */
+
+.pject_introduction_wrapper {
   margin: 0 auto 100px;
+  max-width: 77%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: #f6f6f6;
 }
-.pject_big_title {
-  /* border: 1px solid red; */
-  font-family: Cerapro;
-  color: #292929;
-  font-size: 60px;
-}
-.pject_container_right_text {
-  width: 44%;
-  align-self: flex-end;
-  /* margin-left: auto; */
-  margin-top: 100px;
-  display: flex;
-}
-.pject_chapter_number {
-  margin-right: 25px;
-  /* border: 1px solid orange; */
-  font-family: Cerapro;
-  color: #292929;
-  font-size: 22px;
+/* GRID CHILDREN */
+.pject_child_grid1 {
+  min-height: 324px;
+  grid-column: 1;
+  grid-row: 1;
 }
 
-.pject_line_chapter {
-  margin-right: 50px;
-  width: 1px;
-  height: 64px;
-  background-color: #292929;
+.pject_child_grid2 {
+  min-height: 324px;
+  grid-column: 2;
+  grid-row: 2;
 }
 
-.pject_text_description {
-  font-family: Ceraprolight;
-  font-weight: 600;
-  color: #292929;
-  font-size: 24px;
-  letter-spacing: 1px;
-  /* border: 1px solid green; */
+.pject_child_grid3 {
+  min-height: 324px;
+  grid-column: 1;
+  grid-row: 3;
 }
 
-/* SECONDARY SECTION */
-.pject_wrapper_secondary_section {
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto 200px;
-  background-color: #f6f6f6;
+.pject_child_grid4 {
+  min-height: 324px;
+  grid-column: 2;
+  grid-row: 4;
 }
-.pject_secondary_title {
+/* GRID CHILD COMPONENT */
+/* TITLE */
+.pject_h3 {
+  margin-bottom: 60px;
   font-family: Cerapro;
-  color: #292929;
   font-size: 32px;
-}
-.pject_container_left_text {
-  width: 44%;
-  margin-top: 100px;
-  display: flex;
-}
-
-.pject_line_chapter_left {
-  margin-left: 50px;
-  width: 1px;
-  height: 64px;
-  background-color: #292929;
-}
-.pject_chapter_number_left {
-  margin-left: 25px;
-  /* border: 1px solid orange; */
-  font-family: Cerapro;
   color: #292929;
-  font-size: 22px;
+}
+.pject_h3_right {
+  text-align: right;
 }
 
-/* THIRD SECTION */
-.pject_third_section {
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto 100px;
-  background-color: #f6f6f6;
+/* TEXT CONTENT */
+.pject_text_content {
+  font-family: Ceraprolight;
+  font-size: 1.5em;
+  color: #292929;
 }
 
-.pject_fullscreen {
-  margin: 100px 0 150px;
+/* FULLSCREEN PICTURE */
+.pject_fullscreen_pic_container {
   width: 100%;
-  /* height: 100%; */
+  height: auto;
 }
-/* THIRD SECTION  CONTENT LEFT */
-
-.pject_third_section_article_left {
-  display: flex;
-  /* border: 1px solid black; */
-  margin-bottom: 150px;
-}
-.pject_third_left_wrapper {
-  width: 44%;
-  display: flex;
-  flex-direction: column;
-  font-family: Ceraprolight;
-  font-weight: 600;
-  color: #292929;
-  font-size: 24px;
-  letter-spacing: 1px;
-  /* border: 1px solid green; */
-}
-.pject_title_margin {
-  margin-bottom: 100px;
+.pject_fullscreen_pic {
+  width: 100%;
+  height: auto;
 }
 
-.pject_third_pic_left {
-  width: 50%;
-  /* height: 50%; */
+/* GRID TEXT AND PICTURES */
+.pject_pictures_grid_container {
+  margin: 200px auto 200px;
+  width: 85%;
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.pject_child_pictures_grid1 {
+  max-width: 600px;
+  grid-column: 1;
+  grid-row: 1;
+}
+.pject_child_pictures_grid2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.pject_image_grid {
+  width: 100%;
+}
+
+.pject_child_pictures_grid3 {
   margin-left: auto;
-  /* border: 1px solid red; */
+  max-width: 600px;
+  grid-column: 2;
+  grid-row: 2;
 }
-
-/* THIRD SECTION CONTENT RIGHT */
-.pject_third_section_article_right {
-  display: flex;
-  /* border: 1px solid black; */
-  margin-bottom: 150px;
-}
-.pject_third_pic_right {
-  width: 50%;
-  /* height: 50%; */
-  margin-right: auto;
-  /* border: 1px solid red; */
-}
-.pject_third_right_wrapper {
-  display: flex;
-  width: 44%;
-  flex-direction: column;
-}
-
-.pject_title_margin_left {
-  margin-left: auto;
-  margin-bottom: 100px;
-}
-
-.pject_third_description_right {
-  font-family: Ceraprolight;
-  font-weight: 600;
-  color: #292929;
-  font-size: 24px;
-  letter-spacing: 1px;
+.pject_child_pictures_grid4 {
+  grid-column: 1;
+  grid-row: 2;
 }
