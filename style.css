@@ -748,7 +748,7 @@
 .pject_fullscreen {
   margin: 100px 0 150px;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 /* THIRD SECTION  CONTENT LEFT */
 
@@ -774,7 +774,7 @@
 
 .pject_third_pic_left {
   width: 50%;
-  height: 50%;
+  /* height: 50%; */
   margin-left: auto;
   /* border: 1px solid red; */
 }
@@ -787,7 +787,7 @@
 }
 .pject_third_pic_right {
   width: 50%;
-  height: 50%;
+  /* height: 50%; */
   margin-right: auto;
   /* border: 1px solid red; */
 }
