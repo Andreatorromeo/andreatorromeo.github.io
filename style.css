@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: Cerapro;
@@ -261,7 +264,7 @@
 }
 
 .projects .projects-grid .item-1 {
-  background-image: url(Images/1.jpeg);
+  background-image: url(Images/magis_grid.png);
   background-position: center;
   filter: grayscale(100%);
 }
@@ -621,8 +624,11 @@
   }
 }
 
-/* MAGIS PROJECT DESKTOP*/
+/* PROJECT DESKTOP*/
 /* HERO */
+.body_projects {
+  background-color: #f6f6f6;
+}
 .pject_main {
   width: 100%;
   background-color: #f6f6f6;
@@ -755,3 +761,5 @@
   grid-column: 1;
   grid-row: 2;
 }
+
+/* BUTTONS */
