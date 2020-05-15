@@ -270,21 +270,20 @@ html {
 }
 
 .projects .projects-grid .item-2 {
-  background-image: url(Images/2.jpeg);
+  background-image: url(Images/thefork_grid.png);
   background-position: center;
   background-size: auto;
   filter: grayscale(100%);
 }
 
 .projects .projects-grid .item-3 {
-  background-color: red;
-  /* background-image: url(Images/3.jpeg);
-  background-size: auto;
+  background-image: url(Images/portfolio_grid.png);
   background-position: center;
-  filter: grayscale(100%); */
+  background-size: auto;
+  filter: grayscale(100%);
 }
 .projects .projects-grid .item-4 {
-  background-image: url(Images/2.jpeg);
+  background-color: red;
   background-position: center;
   background-size: auto;
   filter: grayscale(100%);
