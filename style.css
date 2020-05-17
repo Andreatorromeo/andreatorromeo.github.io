@@ -267,26 +267,27 @@ html {
 .projects .projects-grid .item-1 {
   background-image: url(Images/magis_grid.png);
   background-position: center;
+  background-size: cover;
   filter: grayscale(100%);
 }
 
 .projects .projects-grid .item-2 {
   background-image: url(Images/thefork_grid.png);
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   filter: grayscale(100%);
 }
 
 .projects .projects-grid .item-3 {
   background-image: url(Images/portfolio_grid.png);
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   filter: grayscale(100%);
 }
 .projects .projects-grid .item-4 {
   background-color: red;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   filter: grayscale(100%);
 }
 
