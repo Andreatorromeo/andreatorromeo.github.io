@@ -630,7 +630,7 @@ html {
   background-color: #f6f6f6;
 }
 .parallax_M {
-  background-image: url(/Images/magis/magis_parallex.png);
+  background-image: url(/Images/magis/magis_parallex1.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -748,6 +748,12 @@ html {
 }
 .pject_h3_right {
   text-align: right;
+}
+.pject_h3_portfolio {
+  color: #6f7891;
+}
+.pject_h3_magis {
+  color: #e62e19;
 }
 
 /* TEXT CONTENT */
