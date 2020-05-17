@@ -628,7 +628,48 @@ html {
 .body_projects {
   background-color: #f6f6f6;
 }
+.parallax_M {
+  background-image: url(/Images/magis/magis_parallex.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.parallax_F {
+  background-image: url(/Images/thefork/parallex_fork.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.parallax_P {
+  background-image: url(/Images/portfolio/prova.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .pject_main {
+  margin-top: 100vh;
   width: 100%;
   background-color: #f6f6f6;
 }
@@ -638,7 +679,7 @@ html {
   flex-direction: column;
   margin: 115px auto;
   align-items: center;
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   /* border: 1px solid red; */
 }
 
@@ -657,10 +698,9 @@ html {
   font-size: 26px;
   color: #292929;
 }
-.pject_hero_img {
-  width: 55%;
-  /* border: 1px solid green; */
-}
+/* .pject_hero_img {
+  width: 55%; 
+ } */
 
 /* PROJECT INTRODUCTION GRID */
 /* GRID WRAPPER */
