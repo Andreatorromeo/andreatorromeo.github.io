@@ -291,7 +291,7 @@ html {
   transition: all 1s ease-in-out;
 }
 .projects .projects-grid .item-4 {
-  background-color: red;
+  background-image: url(Images/project4_grid.png);
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
@@ -707,6 +707,7 @@ footer h5 {
 
 .pject_title {
   font-family: Cerapro;
+  font-weight: lighter;
   letter-spacing: 2px;
   font-size: 3.75rem;
   color: #292929;
