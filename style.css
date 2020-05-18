@@ -265,10 +265,13 @@ html {
 }
 
 .projects .projects-grid .item-1 {
+  width: 100%;
+  height: 100%;
   background-image: url(Images/magis_grid.png);
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  transition: all 1s ease-in-out;
 }
 
 .projects .projects-grid .item-2 {
@@ -276,6 +279,7 @@ html {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  transition: all 1s ease-in-out;
 }
 
 .projects .projects-grid .item-3 {
@@ -283,12 +287,19 @@ html {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  transition: all 1s ease-in-out;
 }
 .projects .projects-grid .item-4 {
   background-color: red;
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  transition: all 1s ease-in-out;
+}
+
+.projects .projects-grid > a:hover {
+  filter: grayscale(1%);
+  background-size: auto;
 }
 
 /* CONTACTS */
