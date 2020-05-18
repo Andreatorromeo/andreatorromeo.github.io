@@ -354,6 +354,14 @@ html {
   /* margin: 0 50px; */
 }
 
+footer {
+  max-width: 77%;
+  margin: 100px auto 10px;
+}
+footer h5 {
+  font-family: Cerapro;
+  text-align: center;
+}
 @media screen and (max-width: 1024px) {
   /* ABOUT ME */
   .about-me {
