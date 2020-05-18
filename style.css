@@ -14,7 +14,10 @@ html {
   font-family: Ceraprolight;
   src: url("Fonts/CeraPRO-Light.ttf");
 }
-
+@font-face {
+  font-family: Ceraproregular;
+  src: url("Fonts/CeraPRO-Regular.ttf");
+}
 @font-face {
   font-family: Roboto;
   src: url("Fonts/Roboto-Regular.ttf");
@@ -703,16 +706,15 @@ footer h5 {
 }
 
 .pject_title {
-  font-family: Ceraprolight;
-  font-weight: lighter;
-  text-transform: uppercase;
+  font-family: Cerapro;
+  letter-spacing: 2px;
   font-size: 3.75rem;
   color: #292929;
 }
 
 .pject_subtitle {
   margin: 25px auto;
-  font-family: Ceraprolight;
+  font-family: Ceraproregular;
   font-weight: lighter;
   font-size: 26px;
   color: #292929;
@@ -773,10 +775,14 @@ footer h5 {
 .pject_h3_magis {
   color: #e62e19;
 }
+.pject_h3_thefork {
+  color: #669a3a;
+}
 
 /* TEXT CONTENT */
 .pject_text_content {
-  font-family: Ceraprolight;
+  font-family: Ceraproregular;
+  /* font-weight: 100; */
   font-size: 1.5em;
   color: #292929;
 }
