@@ -266,13 +266,25 @@ html {
   grid-row-gap: 1.25rem;
   grid-column-gap: 1.25rem;
 }
+.projects .projects-grid > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.projects .projects-grid a > span {
+  font-family: Cerapro;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: none;
+}
 
 .projects .projects-grid .item-1 {
   background-image: url(Images/magis_grid.png);
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects .projects-grid .item-2 {
@@ -280,7 +292,7 @@ html {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects .projects-grid .item-3 {
@@ -288,19 +300,18 @@ html {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .projects .projects-grid .item-4 {
   background-image: url(Images/project4_grid.png);
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects .projects-grid > a:hover {
   filter: grayscale(1%);
-  background-size: auto;
 }
 
 /* CONTACTS */
