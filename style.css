@@ -296,11 +296,12 @@ html {
 }
 
 .projects .projects-grid .item-3 {
-  background-image: url(Images/portfolio_grid.png);
+  background-image: url(Images/portfolio_grid.jpg);
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
   transition: all 0.5s ease-in-out;
+  grid-column: 1 / span 2;
 }
 .projects .projects-grid .item-4 {
   background-image: url(Images/project4_grid.png);
@@ -308,6 +309,7 @@ html {
   background-size: cover;
   filter: grayscale(100%);
   transition: all 0.5s ease-in-out;
+  display: none;
 }
 
 .projects .projects-grid > a:hover {
