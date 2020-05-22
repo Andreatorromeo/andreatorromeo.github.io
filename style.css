@@ -757,7 +757,9 @@ footer h5 {
 
 /* PROJECT INTRODUCTION GRID */
 /* GRID WRAPPER */
-
+.pject_team {
+  color: #669a3a;
+}
 .pject_introduction_wrapper {
   margin: 0 auto 100px;
   max-width: 77%;
