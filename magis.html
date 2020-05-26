@@ -35,6 +35,20 @@
       </h3>
     </section>
     <main class="pject_main">
+      <!-- <h3>Software used</h3> -->
+      <div class="pject_softwares">
+        <div class="pject_softwares_icons">
+          <div class="software">
+            <img
+              class="software_pic"
+              src="/Icons/xdicon.svg"
+              alt="The logo of Adobe XD"
+            />
+          </div>
+        </div>
+      </div>
+            <!-- DIVIDER -->
+            <div class="divider div-transparent"></div>
       <!-- INTRODUCTION -->
       <section class="pject_introduction_wrapper">
         <div class="pject_child_grid1 pject_flex_child_intro">
@@ -81,13 +95,14 @@
           </ul>
         </div>
       </section>
-
+      <!-- DIVIDER -->
+      <div class="divider div-transparent"></div>
       <!-- FULLSCREEN PICTURE -->
       <div class="pject_fullscreen_pic_container">
         <img
           src="/Images/magis/homefullscreen.png"
           alt="A mockup which contains the Magis Product Detail Page design, with a new user interface and user experience"
-          class="pject_fullscreen_pic"
+          class="pject_fullscreen_pic pject_pic_ipad"
         />
       </div>
 
@@ -118,8 +133,8 @@
           <p class="pject_text_content">
             Related products are shown with a new card structure, which let the
             user to easily understand the customizable products and adding an
-            item in the favourites. A section dedicated to designers make the
-            research easier.
+            item in the favourites. <br />A section dedicated to designers makes
+            the research easier for products of the same collection.
           </p>
         </div>
         <!-- CHILD -->
@@ -133,11 +148,11 @@
       </section>
 
       <!-- FULLSCREEN PICTURE TWO -->
-      <div class="pject_fullscreen_pic_container">
+      <div class="pject_fullscreen_pic_container pject_fullscreen_pic2_container_mobile">
         <img
           src="/Images/magis/magis_customization_tool.jpg"
           alt="The new customization tool on Magis website which shows how is customized a Chair One"
-          class="pject_fullscreen_pic"
+          class="pject_fullscreen_pic pject_fullscreen_pic2_mobile"
         />
       </div>
 
@@ -148,9 +163,9 @@
           <h3 class="pject_h3 pject_h3_magis">Customization tool</h3>
           <p class="pject_text_content">
             The customization tool interface has been semplified, it's full
-            screen, you can save the customization for later on and now this
-            tool can fit properly all the products; in case more than 6 colors
-            are showed, a scrollbar will appear.
+            screen, you can save the customization for later and now this tool
+            can fit properly all the products; in case more than 6 colors are
+            showed, a scrollbar will appear.
           </p>
         </div>
         <!-- CHILD -->
@@ -166,8 +181,8 @@
           <h3 class="pject_h3 pject_h3_right pject_h3_magis">Hover</h3>
           <p class="pject_text_content">
             The hover is crucial for the interface and the experience. When the
-            mouse hover the red dots, is now possible to see which part are you
-            going to modify and the measures.
+            mouse hovers over the red dots, is now possible to see which part
+            are you going to modify and the measures.
           </p>
         </div>
         <!-- CHILD -->
@@ -179,14 +194,39 @@
           />
         </div>
       </section>
+      
+      <!-- Button -->
       <div class="pject_next_wrapper">
         <div class="pject_btn_wrapper">
-          <a href="thefork.html" class="pject_btn">Next project</a>
+          <a href="thefork.html" class="pject_btn">Next project &#8640;</a>
         </div>
       </div>
     </main>
+      <!-- DIVIDER -->
+      <div class="divider div-transparent"></div>
     <footer>
-      <h5>| Andrea Torromeo |</h5>
+      <div class="footer_name"><h5>| 2020 © Andrea Torromeo |</h5></div>
+      <div class="footer_icons">
+        <a href="mailto:andreatorromeo@icloud.com" target="_blank">
+          <img class="footer_icon" src="Icons/email.svg" />
+        </a>
+        <a href="https://www.linkedin.com/in/andrea-torromeo-149811198/" target="_blank" class="middle_icon_footer">
+          <img class="footer_icon" src="Icons/linkedin.svg" />
+        </a>
+        <a href="https://join.skype.com/invite/k0eWeXqZmzRq" target="_blank">
+          <img class="footer_icon" src="Icons/skype.svg" />
+        </a>
+        <div class="footer_icons">
+      </div>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal('.divider')
+      ScrollReveal().reveal('.pject_h3')
+      ScrollReveal().reveal('.pject_text_content')
+      ScrollReveal().reveal('.pject_image_grid')
+      ScrollReveal().reveal('.pject_fullscreen_pic_container')
+      
+    </script>
   </body>
 </html>
