@@ -1104,6 +1104,9 @@ footer .footer_icons .footer_icon:nth-child(2) {
   }
 
   /*RESPONSIVE PROJECT*/
+  .parallax_M {
+    background-size: contain;
+  }
   /* INTODUCTION FLEX */
   .pject_softwares_icons {
     max-width: 85%;
