@@ -5,7 +5,22 @@
 html {
   scroll-behavior: smooth;
 }
-
+@font-face {
+  font-family: Sourcesemibold;
+  src: url("SourceSansPro-SemiBold.ttf");
+}
+@font-face {
+  font-family: Sourceitalic;
+  src: url("SourceSansPro-LightItalic.ttf");
+}
+@font-face {
+  font-family: Sourcebold;
+  src: url("SourceSansPro-Bold.ttf");
+}
+@font-face {
+  font-family: Sourceregular;
+  src: url("SourceSansPro-Regular.ttf");
+}
 @font-face {
   font-family: Cerapro;
   src: url("Fonts/CeraPRO-Medium.ttf");
