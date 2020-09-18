@@ -19,11 +19,11 @@
 }
 @font-face {
   font-family: Cerapro;
-  src: url("../Fonts/CeraPRO-Medium.ttf");
+  src: url("/Fonts/CeraPRO-Regular.ttf");
 }
 @font-face {
   font-family: Ceraprolight;
-  src: url("../Fonts/CeraPRO-Light.ttf");
+  src: url("/Fonts/CeraPRO-Light.ttf");
 }
 
 html,
