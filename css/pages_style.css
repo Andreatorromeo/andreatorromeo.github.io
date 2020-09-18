@@ -17,6 +17,14 @@
   font-family: Sourceregular;
   src: url("../Fonts/pages/SourceSansPro-Regular.ttf");
 }
+@font-face {
+  font-family: Cerapro;
+  src: url("../Fonts/CeraPRO-Medium.ttf");
+}
+@font-face {
+  font-family: Ceraprolight;
+  src: url("../Fonts/CeraPRO-Light.ttf");
+}
 
 html,
 body {
