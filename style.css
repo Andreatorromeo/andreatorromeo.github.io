@@ -898,15 +898,6 @@ footer .footer_icons .footer_icon:nth-child(2) {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
-    transition: all 0.5s ease-in-out;
-    z-index: 2;
-  }
-  .navbar .menu.open {
-    clip-path: circle(900px at 90% -10%);
-    -webkit-clip-path: circle(900px at 90% -10%);
   }
 
   /* DARK GREY PART */
