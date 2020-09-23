@@ -19,11 +19,11 @@
 }
 @font-face {
   font-family: Cerapro;
-  src: url("/Fonts/CeraPRO-Regular.ttf");
+  src: url("../Fonts/CeraPRO-Regular.ttf");
 }
 @font-face {
   font-family: Ceraprolight;
-  src: url("/Fonts/CeraPRO-Light.ttf");
+  src: url("../Fonts/CeraPRO-Light.ttf");
 }
 
 html,
@@ -92,7 +92,7 @@ h2 {
     position: fixed;
     z-index: 2;
   }
-  
+
   .open {
     width: 100vw;
     height: 100vh;
@@ -111,18 +111,18 @@ h2 {
     left: 30px;
   }
 
-  .hamburger .line{
+  .hamburger .line {
     border: 1px solid;
     transition: 1s;
   }
 
-  .open .hamburger .line:nth-child(1){
+  .open .hamburger .line:nth-child(1) {
     transform: rotate(-45deg) translate(-11px, 14px);
   }
-  .open .hamburger .line:nth-child(2){
+  .open .hamburger .line:nth-child(2) {
     transform: scale(0);
   }
-  .open .hamburger .line:nth-child(3){
+  .open .hamburger .line:nth-child(3) {
     transform: rotate(45deg) translate(-1px, -4px);
   }
 
@@ -263,7 +263,7 @@ h2 {
 }
 
 .custom-section-content--bottom-image {
-  display: flex;
+  /* display: flex; */
   margin-top: 40px;
 }
 
