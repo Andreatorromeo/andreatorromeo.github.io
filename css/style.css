@@ -332,8 +332,8 @@ html {
   margin: 0 20px 150px;
   max-width: 100%;
   display: grid;
-  /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
   grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
   grid-row-gap: 0px;
   grid-column-gap: 30px;
@@ -393,7 +393,7 @@ html {
 
 .projects .projects-grid .item-3 {
   grid-column: 5/7;
-  grid-row: 2 / 13;
+  grid-row: 2 / 14;
   background-image: url(../Images/home/portfolio_grid.jpg);
   background-position: center;
   background-size: cover;
