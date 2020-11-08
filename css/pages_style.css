@@ -175,6 +175,14 @@ h2 {
   background-image: url("../Images/pages/thefork/project_mockup.png");
 }
 
+.docebo-section {
+  background-image: url("../Images/pages/docebo/docebohome.jpg");
+}
+
+.docebo-middle-section {
+  background-image: url("../Images/pages/thefork/project_mockup.png");
+}
+
 .entry-section-container,
 .footer-container {
   height: 100%;
@@ -217,6 +225,10 @@ h2 {
 .fork-mobile,
 .fork-title {
   color: #689f37;
+}
+.docebo-mobile,
+.docebo-title {
+  color: #0d4d84;
 }
 
 .custom-section {
@@ -338,6 +350,11 @@ h2 {
 }
 
 /* UTILS */
+
+.bg-blue-docebo {
+  color: #fff;
+  background-color: #0d4d84;
+}
 
 .bg-blue {
   color: #fff;
